@@ -1,0 +1,2 @@
+#!/bin/sh
+~/Downloads/dmenu-4.6/dmenu_path | ~/Downloads/dmenu-4.6/dmenu "$@" | ${SHELL:-"/bin/sh"} &
