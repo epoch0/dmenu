@@ -136,7 +136,7 @@ drawmenu(void)
 
 	if ((curpos = TEXTNW(text, cursor) + fh / 2 - 2) < w) {
 		drw_setscheme(drw, &scheme[SchemeNorm]);
-		drw_rect(drw, x + curpos + 2, /*2 + (bh-fh)/2*/ (bh-fh)/2 - 1, 1, /*fh - 4*/ fh + 2, 1, 1, 0);
+		drw_rect(drw, x + curpos + 2, (bh-fh)/2 - 1, 1, fh + 2, 1, 1, 0);
 	}
 
 	if (lines > 0) {
